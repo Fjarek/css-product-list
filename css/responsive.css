@@ -1,0 +1,25 @@
+@media all and (max-width:992px){
+    #container{
+        
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .product{
+        width: 33.333333%;
+        height: 33.333333%;
+    }
+    
+}
+
+@media all and (max-width:480px){
+    #container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }  
+    .product{
+        width: 100%;
+    }
+  
+}
